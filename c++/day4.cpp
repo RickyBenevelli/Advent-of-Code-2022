@@ -8,9 +8,6 @@ bool overlap (int, int, int, int);
 
 int main(int argc, char const *argv[])
 {
-    /****************************************************************/
-    /*PARTE 1*/
-    /****************************************************************/
     fstream in; 
     in.open("../input/day4.txt", ios::in);
     if(!in.is_open()){
@@ -86,12 +83,7 @@ int main(int argc, char const *argv[])
     
     cout << "Counter: " << counter << endl;
     cout << "Overlaps: " << overlaps << endl;
-
-
-    /****************************************************************/
-    /*PARTE 2*/
-    /****************************************************************/
-    
+   
     
     in.close();
     return 0;
